@@ -1,0 +1,30 @@
+# These are all the tools (libraries) our application needs to work
+# Think of these as ingredients in a recipe - we need all of them!
+
+# Flask - The main framework for building our web application
+Flask==2.3.3
+
+# Flask-CORS - Allows our frontend and backend to communicate
+Flask-CORS==4.0.0
+
+# Flask-SQLAlchemy - Helps us work with our database easily
+Flask-SQLAlchemy==3.0.5
+
+# Flask-JWT-Extended - Handles user login and security tokens
+Flask-JWT-Extended==4.5.3
+
+# Werkzeug - Security utilities for password hashing
+Werkzeug==2.3.7
+
+# Marshmallow - Helps convert data between different formats
+marshmallow==3.20.1
+
+# Python-dotenv - Helps manage environment variables (like secrets)
+python-dotenv==1.0.0
+
+# Requests - For making HTTP requests (if needed for external APIs)
+requests==2.31.0
+
+# DateTime utilities
+python-dateutil==2.8.2
+
